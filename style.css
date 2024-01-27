@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Pangolin&display=swap');
+body{
+    background-color: #c9baa6;
+    cursor: url(free-icon-cursor-1806572.cur), pointer; 
+}
+
+header{
+    font-family: 'Mountains of Christmas', serif;
+    width: 768px;
+    font-size: 60px;
+    margin: 0px auto ;
+    text-align: center;
+    background-color: #aa183c;
+    border-radius: 16px 16px 0px 0px;
+    color: aliceblue;
+    height: 100px;
+}
+
+main{
+    background-color: #c33155;
+    display: flex;
+    padding: 32px;
+    margin: 0px auto ;
+    box-sizing: border-box;
+    justify-content: space-around;
+    border-radius: 0px 0px 15px 15px;
+    width: 768px;
+    flex-wrap: wrap;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+    color: #be0936;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 70px;
+    margin: 12px 0;
+}
+
+section:hover {
+    color: #ffffff;
+    background-color: #be0936;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.text{
+    font-family: 'Pangolin', cursive;
+}
